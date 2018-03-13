@@ -15,3 +15,7 @@ services:
     build: ./data
     expose:
       - "8080"
+  another:
+    build: ./another
+    expose:
+      - "1300"
