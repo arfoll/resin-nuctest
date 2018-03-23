@@ -19,3 +19,7 @@ services:
     build: ./another
     expose:
       - "1300"
+  ubuntu:
+    build: ./ubuntu
+    expose:
+      - "1301"
