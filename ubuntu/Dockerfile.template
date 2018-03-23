@@ -1,4 +1,4 @@
-FROM resin/%%RESIN_MACHINE_NAME%%-debian
+FROM resin/intel-nuc-node:8.0.0
 
 # Defines our working directory in container
 WORKDIR /usr/src/app
